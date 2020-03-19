@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  display: block;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="index.html">About</a>
+  <a href="problem.html">Problem</a>
+  <a href="our solution.html">Our Solution</a>
+  <a href="contact us.html">Contact Us</a>
+</div>
+
+<div class="main">
+  <h2>Contact Us</h2>
+  <h3>Meet The Team</h3>
+<br>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\Kanchan\Downloads\pp.png" alt="Shrirang" style="width:100%">
+      <div class="container">
+        <h3>Shrirang Karandikar</h3>
+        <p class="title">Contributor</p>
+        <p>text that describes Shrirang</p>
+        <p>email or linkedin</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\Kanchan\Downloads\pp.png" alt="Kimaya" style="width:100%">
+      <div class="container">
+        <h3>Kimaya Badhe</h3>
+        <p class="title">Contributor</p>
+        <p>text that describes Kimaya.</p>
+        <p>her email or linkedin</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\Kanchan\Downloads\pp.png" alt="Neha" style="width:100%">
+      <div class="container">
+        <h3>Neha Chaudhari</h3>
+        <p class="title">Contributor</p>
+        <p>text that describes Neha</p>
+        <p>email or linkedin</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+ <div class="column">
+    <div class="card">
+      <img src="C:\Users\Kanchan\Downloads\pp.png" alt="Kanchan" style="width:100%">
+      <div class="container">
+        <h3>Kanchan Sarolkar</h3>
+        <p class="title">Contributor</p>
+        <p>text that describes Kanchan</p>
+        <p>email or linkedin</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="C:\Users\Kanchan\Downloads\pp.png" alt="Anamika" style="width:100%">
+      <div class="container">
+        <h3>Anamika Lochab</h3>
+        <p class="title">Contributor</p>
+        <p>text that describes Anamika</p>
+        <p>Her email or linkedin</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+   
+</body>
+</html> 
+
+ 

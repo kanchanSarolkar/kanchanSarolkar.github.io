@@ -14,7 +14,7 @@ The EyeTracking module is the core of the library that performs eye tracking and
 AudioVideo Recording module records audio and video.<br>
 The third module is the primary interface to PyTrack - The PyTrackRunnerClass. This class provides the user with an interface to execute the functionalities of the library. The user can specify the UI, the eye-tracking functionality, the destination folder and exploit the functions of this library by using various combinations with the following call-
 
-`pytrack_runner(UI = False,`<br>
+`pytrack_runner(UI = False,` <br>
 `UI_file_name = “User_ImageUI_EscExit”,` <br>
 `pupilTracking = False,`<br>
 `blinkDetection = False,` <br>

@@ -27,6 +27,7 @@ The third module is the primary interface to PyTrack - The PyTrackRunnerClass. T
 `audioName = ‘audio’,` <br>
 `syncAudioVideo = False,` <br>
 `destinationPath = ‘/Output’)`
+
 The user can set flags to run the combination of these functionalities.
 
 UI (bool, optional): This parameter enables the user to run UI. Default: False.

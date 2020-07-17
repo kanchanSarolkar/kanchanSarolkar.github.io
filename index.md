@@ -8,8 +8,6 @@ The goal has been to make the library generic. A user can provide any interface:
 
 Use PyTrack to develop applications that can be controlled by eye movements or blinks. Or use it to track eye movements as an aid to medical diagnostics.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Overall Design
 PyTrack has three modules - EyeTracking, AudioVideo recording, and the main interface (along with the data handling class). 
 The EyeTracking module is the core of the library that performs eye tracking and blink detection. This module is responsible for accessing the webcam to track eyes and write it to a CSV. <br>
@@ -17,7 +15,7 @@ AudioVideo Recording module records audio and video.<br>
 The third module is the primary interface to PyTrack - The PyTrackRunnerClass. This class provides the user with an interface to execute the functionalities of the library. The user can specify the UI, the eye-tracking functionality, the destination folder and exploit the functions of this library by using various combinations with the following call-
 
 `pytrack_runner(UI = False,`<br>
-` UI_file_name = “User_ImageUI_EscExit”,` <br>
+`UI_file_name = “User_ImageUI_EscExit”,` <br>
 `pupilTracking = False,`<br>
 `blinkDetection = False,` <br>
 `video_source = 0,` <br>
@@ -73,6 +71,7 @@ is_empty(): This function checks if the queue is empty.
 search_element(key): This function is used to search if a specified key
 
 To make this clear, a basic example that makes use of the library to track the eyes of the user reading a text UI is described below.
+
 `pytrack_runner(UI = True,`<br> 
 `UI_file_name = “Ex_1_SampleTextUI”,`<br>
 `pupilTracking = True,`<br>
